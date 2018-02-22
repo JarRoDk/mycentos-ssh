@@ -1,11 +1,9 @@
 HostKey /etc/ssh/ssh_host_rsa_key
 HostKey /etc/ssh/ssh_host_ecdsa_key
 HostKey /etc/ssh/ssh_host_ed25519_key
-SyslogFacility AUTHPRIV
+#SyslogFacility AUTHPRIV zakomentowane
 
 #MY CONF 
-/etc/ssh/sshd_config
-
 SyslogFacility AUTH   
 SyslogFacility AUTHPRIV
 LogLevel INFO         
